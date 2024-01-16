@@ -1,1 +1,30 @@
-.fiche-rp__header {}
+:root {
+    --fond-rp: #fdfdfd;
+    --couleur-rp: #939392;
+}
+
+[data-color-scheme="dark"]:root {
+    --fond-rp: #414040;
+    --couleur-rp:var(--couleur-texte);
+}
+
+.fiche-rp__header {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 25px;
+    color: var(--couleur-tertiaire);
+}
+
+.fiche-rp__titre {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 25px;
+    color: var(--couleur-tertiaire);
+}
+
+.fiche-rp__corps {
+    text-align: justify;
+    width: 80%;
+}
+
+.fiche-rp__tags {
+    text-align: center;
+}
